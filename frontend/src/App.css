@@ -1,0 +1,181 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Titles */
+.page-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.page-title2{
+    font-size: 24px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.page-subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.page-subtitle2 {
+    font-size: 16px;
+    text-align: left;
+    color: #555;
+    margin-bottom: 20px;
+}
+/* Horizontal Line */
+.divider-line {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0; /* Add spacing above and below the line */
+}
+/* Input Fields */
+.input-field {
+    width: 95%; /* Adjusted width for better alignment */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Field Labels */
+.field-label {
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Tooltip */
+.tooltip {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    z-index: 10;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Tooltip Icon */
+.tooltip-icon {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Informational Text */
+.info-text {
+    font-size: 11px;
+    color: #555;
+    text-align: left;
+}
+
+.info-text a {
+    font-size: inherit; /* Ensures the font size matches the surrounding text */
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Buttons */
+.button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-primary {
+    background-color: #007bff;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.button-primary:hover {
+    background-color: #0056b3;
+}
+
+.button-secondary {
+    background-color: green;
+    color: white;
+}
+
+.button-secondary:hover {
+    background-color: darkgreen;
+}
+
+/* Links */
+.link {
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.divider {
+    display: flex;
+    align-items: center;
+}
+
+.divider-line {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.divider-text {
+    margin: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Gender Options */
+.gender-option {
+    color: #333;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Custom Gender Input */
+.custom-gender {
+    margin-top: 10px;
+}
